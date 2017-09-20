@@ -15,11 +15,11 @@ class GuessingGame {
 
     lower() {
 
-	max=Math.floor((max+min)/2-1);
+	max=Math.floor((max+min)/2)-1;
     }
 
     greater() {
-    min=Math.floor((max+min)/2+1);
+    min=Math.floor((max+min)/2)+1;
     }
 }
 
