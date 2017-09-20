@@ -7,17 +7,17 @@ class GuessingGame {
     }
 
     guess() {
-	return Math.floor((this.max+this.min)/2);
+	return Math.round((this.max+this.min)/2);
 
     }
 
     lower() {
 
-	this.max=Math.floor((this.max+this.min)/2)-1;
+	this.max=Math.round((this.max+this.min)/2);
     }
 
     greater() {
-    this.min=Math.floor((this.max+this.min)/2)+1;
+    this.min=Math.round((this.max+this.min)/2);
     }
 }
 
